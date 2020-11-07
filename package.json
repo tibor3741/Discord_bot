@@ -1,0 +1,8 @@
+{
+“name”: “kasszandra-bot”,
+“version”: “1.0.0”,
+“description”: “My Discord Bot”,
+“main”: “bot.js”,
+“author”: “Tibor”,
+“dependencies”: {}
+} 
