@@ -15,6 +15,9 @@ client.on('message', message => {
 		message.channel.send(`Szerver név: ${message.guild.name}\nA Jelenlegi Tagok Száma: ${message.guild.memberCount}`);
 	} else if (message.content === `${prefix}user-info`) {
 		message.channel.send(`Felhasználóneved: ${message.author.username}\nAzonosítód: ${message.author.id}`);
+	}else if (message.content === `${prefix}kep`) {
+		message.channel.send(`ez egy kép `);
+		message.channel.send(`http://tibor.atw.hu/imgs/character.jpg`);
 	}
 
 
