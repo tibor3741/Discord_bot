@@ -6,7 +6,6 @@ client.once('ready', () => {
     console.log('Sikeresen Csatlakoztam a Discord Szerver-re');
 });
 var natural_pictures=["https://bit.ly/36d2AvY","https://bit.ly/37gfMPR","https://bit.ly/2VcHJT9"];
-var numbers = new Array(2)
 function randomIntInc(low, high) {
   return Math.floor(Math.random() * (high - low + 1) + low)
 }
